@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetSale", "DotNetSale\Do
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetSale.Tests", "DotNetSale.Tests\DotNetSale.Tests.csproj", "{408DEA02-6F03-4DD3-9C0C-62663690EBCE}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DotNetSale.SqlServer", "DotNetSale.SqlServer\DotNetSale.SqlServer.sqlproj", "{465E6520-7618-46E4-AB2C-016C1F9A6038}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{408DEA02-6F03-4DD3-9C0C-62663690EBCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{408DEA02-6F03-4DD3-9C0C-62663690EBCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{408DEA02-6F03-4DD3-9C0C-62663690EBCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{465E6520-7618-46E4-AB2C-016C1F9A6038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{465E6520-7618-46E4-AB2C-016C1F9A6038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{465E6520-7618-46E4-AB2C-016C1F9A6038}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{465E6520-7618-46E4-AB2C-016C1F9A6038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{465E6520-7618-46E4-AB2C-016C1F9A6038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{465E6520-7618-46E4-AB2C-016C1F9A6038}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
